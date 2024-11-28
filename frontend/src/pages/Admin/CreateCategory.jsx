@@ -4,7 +4,7 @@ import AdminMenu from "../../components/Layout/AdminMenu";
 import { toast } from "react-toastify";
 import axios from "axios";
 import config from "./../../config.js";
-import CategoryForm from "../../components/Form/Categoryform.jsx";
+import CategoryForm from "../../components/Form/CategoryForm.jsx";
 import { Modal } from "antd";
 
 const CreateCategory = () => {
