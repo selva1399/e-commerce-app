@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 import { useCart } from "../context/Cart.jsx";
 import banner from "../assets/images/banner.jpg";
 import { AiOutlineReload } from "react-icons/ai";
-import "../styles/HomePage.css";
+import "../styles/Homepage.css";
 
 const HomePage = () => {
   const [products, setProducts] = useState([]);
